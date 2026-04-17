@@ -37,4 +37,5 @@ int main() {
     cout << "Consoane: " << cCounter << endl;
     cout << "Vocale: " << vCounter << endl;
     cout << "Spatii: " << sCounter << endl;
+    return 0;
 }
