@@ -7,8 +7,9 @@ int main() {
     char C[25];
     char vocale[10] = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
     char space = ' ';
-    cin >> C;
+    cin.get(C, 25);
     int n = strlen(C);
+    cout << "Length: " << n << endl;
     int vCounter = 0;
     int cCounter = 0;
     int sCounter = 0;
